@@ -1,0 +1,32 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #fdfcf9;
+  color: #2e2e2e;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header img.capa {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.produto img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+footer img.detalhe {
+  width: 100px;
+  margin-top: 40px;
+}
